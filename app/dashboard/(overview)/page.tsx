@@ -6,7 +6,7 @@ import { Suspense } from 'react';
 import { RevenueChartSkeleton, CardsSkeleton, } from '@/app/ui/skeletons';
 import { LatestInvoicesSkeleton } from '@/app/ui/skeletons';
 import CardWrapper from '@/app/ui/dashboard/cards';
-
+//Chapter 9 hat alles kleineer gemacht und Suspense hinzugefügt
 export default async function Page() {
   return (
     <main>
